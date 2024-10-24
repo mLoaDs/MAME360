@@ -1,0 +1,220 @@
+<XuiCanvas version="000c">
+<Properties>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+</Properties>
+<XuiScene>
+<Properties>
+<Id>XuiOptionsScene</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<ClassOverride>ShaderListScene</ClassOverride>
+</Properties>
+<XuiImage>
+<Properties>
+<Id>XuiImage1</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<SizeMode>4</SizeMode>
+<ImagePath>mamelogo1080p.png</ImagePath>
+<BrushFlags>48</BrushFlags>
+</Properties>
+</XuiImage>
+<XuiVideo>
+<Properties>
+<Id>XuiVideo1</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<Opacity>0.250000</Opacity>
+<File>SD0008.wmv</File>
+<SizeMode>4</SizeMode>
+<Loop>true</Loop>
+</Properties>
+</XuiVideo>
+<XuiButton>
+<Properties>
+<Id>XuiButtonBack</Id>
+<Width>334.910156</Width>
+<Height>16.000000</Height>
+<Position>518.054016,647.340210,0.000000</Position>
+<Visual>B_Button</Visual>
+<UnfocusedInput>true</UnfocusedInput>
+<Text>Back to Main Menu</Text>
+<PressKey>22529</PressKey>
+</Properties>
+</XuiButton>
+<XuiFigure>
+<Properties>
+<Width>1130.000000</Width>
+<Height>2.026230</Height>
+<Position>57.456001,649.349792,0.000000</Position>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<FillColor>0xffebebeb</FillColor>
+<Gradient>
+<Properties>
+<NumStops>8</NumStops>
+<StopColor index="0">0xffebebeb</StopColor>
+<StopColor index="1">0xff47bf0f</StopColor>
+<StopColor index="2">0xffa3df0f</StopColor>
+<StopColor index="3">0xff0f0f2d</StopColor>
+<StopColor index="4">0xff270fa7</StopColor>
+<StopColor index="5">0xffc70fc7</StopColor>
+<StopColor index="6">0xff0f0f0f</StopColor>
+<StopColor index="7">0xff0f0f0f</StopColor>
+<StopPos index="0">0.000000</StopPos>
+<StopPos index="1">0.062745</StopPos>
+<StopPos index="2">0.168627</StopPos>
+<StopPos index="3">0.525490</StopPos>
+<StopPos index="4">0.788235</StopPos>
+<StopPos index="5">1.000000</StopPos>
+<StopPos index="6">1.000000</StopPos>
+<StopPos index="7">1.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,653.000000,0.000000,0,653.000000,0.000000,653.000000,0.000000,653.000000,5.000000,0,653.000000,5.000000,653.000000,5.000000,0.000000,5.000000,0,0.000000,5.000000,0.000000,5.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiFigure>
+<Properties>
+<Width>1130.000000</Width>
+<Height>1.543991</Height>
+<Position>54.000000,228.000000,0.000000</Position>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<FillColor>0xffebebeb</FillColor>
+<Gradient>
+<Properties>
+<NumStops>8</NumStops>
+<StopColor index="0">0xffebebeb</StopColor>
+<StopColor index="1">0xff47bf0f</StopColor>
+<StopColor index="2">0xffa3df0f</StopColor>
+<StopColor index="3">0xff0f0f2d</StopColor>
+<StopColor index="4">0xff270fa7</StopColor>
+<StopColor index="5">0xffc70fc7</StopColor>
+<StopColor index="6">0xff0f0f0f</StopColor>
+<StopColor index="7">0xff0f0f0f</StopColor>
+<StopPos index="0">0.000000</StopPos>
+<StopPos index="1">0.062745</StopPos>
+<StopPos index="2">0.168627</StopPos>
+<StopPos index="3">0.525490</StopPos>
+<StopPos index="4">0.788235</StopPos>
+<StopPos index="5">1.000000</StopPos>
+<StopPos index="6">1.000000</StopPos>
+<StopPos index="7">1.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,653.000000,0.000000,0,653.000000,0.000000,653.000000,0.000000,653.000000,5.000000,0,653.000000,5.000000,653.000000,5.000000,0.000000,5.000000,0,0.000000,5.000000,0.000000,5.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiText>
+<Properties>
+<Id>XuiShaderName</Id>
+<Width>323.679993</Width>
+<Height>28.000000</Height>
+<Position>565.619263,237.984833,0.000000</Position>
+<TextColor>0xff80ff80</TextColor>
+<DropShadowColor>0xff0000ff</DropShadowColor>
+</Properties>
+</XuiText>
+<XuiCheckbox>
+<Properties>
+<Id>XuiCheckboxCheats</Id>
+<Width>282.359985</Width>
+<Height>49.000000</Height>
+<Position>77.212769,277.262421,0.000000</Position>
+<NavRight>XuiShaderList</NavRight>
+<NavUp>XuiCheckboxSoundEnable</NavUp>
+<NavDown>XuiCheckboxVSYNC</NavDown>
+<Text>Cheats Enabled</Text>
+</Properties>
+</XuiCheckbox>
+<XuiCheckbox>
+<Properties>
+<Id>XuiCheckboxVSYNC</Id>
+<Width>282.359985</Width>
+<Height>49.000000</Height>
+<Position>77.212769,320.540009,0.000000</Position>
+<NavRight>XuiShaderList</NavRight>
+<NavUp>XuiCheckboxCheats</NavUp>
+<NavDown>XuiCheckboxThrottle</NavDown>
+<Text>VSYNC On</Text>
+</Properties>
+</XuiCheckbox>
+<XuiCheckbox>
+<Properties>
+<Id>XuiCheckboxThrottle</Id>
+<Width>282.359985</Width>
+<Height>49.000000</Height>
+<Position>77.212769,363.817596,0.000000</Position>
+<NavRight>XuiShaderList</NavRight>
+<NavUp>XuiCheckboxVSYNC</NavUp>
+<NavDown>XuiCheckboxAspect</NavDown>
+<Text>Throttle Framerate</Text>
+</Properties>
+</XuiCheckbox>
+<XuiText>
+<Properties>
+<Id>XuiText1</Id>
+<Width>160.960022</Width>
+<Height>28.000000</Height>
+<Position>430.539215,238.984833,0.000000</Position>
+<Text>Current Shader :</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff0000ff</DropShadowColor>
+</Properties>
+</XuiText>
+<XuiCheckbox>
+<Properties>
+<Id>XuiCheckboxAspect</Id>
+<Width>282.359985</Width>
+<Height>49.000000</Height>
+<Position>77.212769,407.095245,0.000000</Position>
+<NavRight>XuiShaderList</NavRight>
+<NavUp>XuiCheckboxThrottle</NavUp>
+<Text>Aspect Ratio Correction</Text>
+</Properties>
+</XuiCheckbox>
+<XuiCheckbox>
+<Properties>
+<Id>XuiCheckboxSoundEnable</Id>
+<Width>282.359985</Width>
+<Height>49.000000</Height>
+<Position>77.212769,233.984833,0.000000</Position>
+<NavRight>XuiShaderList</NavRight>
+<NavDown>XuiCheckboxCheats</NavDown>
+<Text>Sound Enabled
+</Text>
+</Properties>
+</XuiCheckbox>
+<XuiList>
+<Properties>
+<Id>XuiShaderList</Id>
+<Width>417.919983</Width>
+<Height>367.744019</Height>
+<Position>425.000000,266.000000,0.000000</Position>
+<ClassOverride>ShaderList</ClassOverride>
+<Visual>List_Genres</Visual>
+<NavLeft>XuiCheckboxSoundEnable</NavLeft>
+</Properties>
+</XuiList>
+</XuiScene>
+</XuiCanvas>

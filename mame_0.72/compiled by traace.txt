@@ -1,0 +1,7 @@
+Compiler Changelog (Diffs. between this and gamez fan source) :
+- Replaced AtgFramework 2008 with AtgFramework 2010
+- workaround to fix Xbox audio driver symbole error
+- Uncomment wcvol195, wcvol195x, hvysmsh, hvysmsha, hvysmshj in drives.c
+- Fixed asurabld, asurabus, denjinmk (fixed names vidhrdw fuukifg3.c | denjinmk.c named fuukifg3vid.c & denjinmkvid.c now)
+- Fixed deployment order
+- added cage.c (sndhrw) | ics2115.c (sound) | pgmy2ks.c (machines) | deco156.c (drivers) to vs2010 solutions

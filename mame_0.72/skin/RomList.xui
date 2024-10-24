@@ -1,0 +1,475 @@
+<XuiCanvas version="000c">
+<Properties>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+</Properties>
+<XuiScene>
+<Properties>
+<Id>XuiRomScene</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<ClassOverride>RomListScene</ClassOverride>
+</Properties>
+<XuiImage>
+<Properties>
+<Id>XuiImage1</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<SizeMode>4</SizeMode>
+<ImagePath>mamelogo1080p.png</ImagePath>
+<BrushFlags>48</BrushFlags>
+</Properties>
+</XuiImage>
+<XuiVideo>
+<Properties>
+<Id>XuiVideo1</Id>
+<Width>1280.000000</Width>
+<Height>720.000000</Height>
+<Opacity>0.250000</Opacity>
+<File>SD0008.wmv</File>
+<SizeMode>4</SizeMode>
+<Loop>true</Loop>
+</Properties>
+</XuiVideo>
+<XuiFigure>
+<Properties>
+<Width>441.116455</Width>
+<Height>165.310333</Height>
+<Position>744.138916,224.543991,0.000000</Position>
+<Opacity>0.400000</Opacity>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<FillColor>0xff0f0f66</FillColor>
+<TextureFileName>PanelReflect.png</TextureFileName>
+<Gradient>
+<Properties>
+<NumStops>5</NumStops>
+<StopColor index="0">0x8c0f0f8e</StopColor>
+<StopColor index="1">0x286e0f6e</StopColor>
+<StopColor index="2">0x000f0f76</StopColor>
+<StopColor index="3">0x8c006600</StopColor>
+<StopColor index="4">0x2b0f5e5e</StopColor>
+<StopPos index="0">0.333333</StopPos>
+<StopPos index="1">0.811765</StopPos>
+<StopPos index="2">1.000000</StopPos>
+<StopPos index="3">1.000000</StopPos>
+<StopPos index="4">1.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,432.000000,0.000000,0,432.000000,0.000000,432.000000,0.000000,432.000000,103.000000,0,432.000000,103.000000,432.000000,103.000000,0.000000,103.000000,0,0.000000,103.000000,0.000000,103.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiFigure>
+<Properties>
+<Width>441.000000</Width>
+<Height>253.000000</Height>
+<Position>744.000000,398.199982,0.000000</Position>
+<Opacity>0.500000</Opacity>
+<BlendMode>6</BlendMode>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<Gradient>
+<Properties>
+<NumStops>1</NumStops>
+<StopColor index="0">0x00000000</StopColor>
+<StopPos index="0">0.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,441.000000,0.000000,0,441.000000,0.000000,441.000000,0.000000,441.000000,253.000000,0,441.000000,253.000000,441.000000,253.000000,0.000000,253.000000,0,0.000000,253.000000,0.000000,253.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiList>
+<Properties>
+<Id>XuiRomList</Id>
+<Width>659.532837</Width>
+<Height>452.928040</Height>
+<Position>54.000004,244.902420,0.000000</Position>
+<ClassOverride>BurnRomList</ClassOverride>
+<Visual>List_Genres</Visual>
+<NavRight>XuiCheckboxHideChildren</NavRight>
+</Properties>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+<XuiListItem>
+<Properties>
+<Id>control_ListItem</Id>
+<Width>254.000000</Width>
+<Height>40.000000</Height>
+<Position>7.000000,26.000000,0.000000</Position>
+<Anchor>5</Anchor>
+<Show>false</Show>
+<Visual>XuiButton</Visual>
+</Properties>
+</XuiListItem>
+</XuiList>
+<XuiText>
+<Properties>
+<Id>XuiNumberOfRoms</Id>
+<Width>468.160034</Width>
+<Height>28.476868</Height>
+<Position>58.314819,653.629700,0.000000</Position>
+<Text>Version : </Text>
+<TextColor>0xffebebeb</TextColor>
+<DropShadowColor>0xff0f0feb</DropShadowColor>
+<PointSize>18.000000</PointSize>
+<TextStyle>277</TextStyle>
+</Properties>
+</XuiText>
+<XuiText>
+<Properties>
+<Id>XuiGameInfoLbl</Id>
+<Width>133.404663</Width>
+<Height>33.076599</Height>
+<Position>773.234314,275.797760,0.000000</Position>
+<Text>Hardware :</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff0f0feb</DropShadowColor>
+<TextStyle>277</TextStyle>
+</Properties>
+</XuiText>
+<XuiText>
+<Properties>
+<Id>XuiReleasedByLbl</Id>
+<Width>70.752678</Width>
+<Height>33.056732</Height>
+<Position>773.234314,300.525574,0.000000</Position>
+<Text>Year :
+</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff0f0feb</DropShadowColor>
+<TextStyle>277</TextStyle>
+<LineSpacingAdjust>-4</LineSpacingAdjust>
+</Properties>
+</XuiText>
+<XuiText>
+<Properties>
+<Id>XuiVersion</Id>
+<Width>76.068954</Width>
+<Height>13.476868</Height>
+<Position>1119.784058,16.855076,0.000000</Position>
+<Text>Version : </Text>
+<TextColor>0xffebebeb</TextColor>
+<DropShadowColor>0xff0f0feb</DropShadowColor>
+<PointSize>8.000000</PointSize>
+<TextStyle>533</TextStyle>
+</Properties>
+</XuiText>
+<XuiButton>
+<Properties>
+<Id>XuiButton1</Id>
+<Width>334.910156</Width>
+<Height>16.000000</Height>
+<Position>518.054016,644.340210,0.000000</Position>
+<Visual>A_Button</Visual>
+<UnfocusedInput>true</UnfocusedInput>
+<Text>Launch Game</Text>
+</Properties>
+</XuiButton>
+<XuiText>
+<Properties>
+<Id>XuiGameInfo</Id>
+<Width>87.716949</Width>
+<Height>32.111115</Height>
+<Position>824.480042,300.125580,0.000000</Position>
+<Scale>0.900000,1.000000,1.000000</Scale>
+<Text>1999</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff000000</DropShadowColor>
+<TextStyle>277</TextStyle>
+</Properties>
+</XuiText>
+<XuiText>
+<Properties>
+<Id>XuiReleasedBy</Id>
+<Width>440.757141</Width>
+<Height>31.757080</Height>
+<Position>869.363403,276.679993,0.000000</Position>
+<Scale>0.900000,1.000000,1.000000</Scale>
+<Text>dddddd</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff000000</DropShadowColor>
+<TextStyle>277</TextStyle>
+</Properties>
+</XuiText>
+<XuiText>
+<Properties>
+<Id>XuiParent</Id>
+<Width>385.800110</Width>
+<Height>22.000000</Height>
+<Position>883.080078,249.079987,0.000000</Position>
+<Scale>0.900000,1.000000,1.000000</Scale>
+<Text>dsdsdsdsds</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff000000</DropShadowColor>
+<TextStyle>277</TextStyle>
+</Properties>
+</XuiText>
+<XuiImage>
+<Properties>
+<Id>XuiRomTitle</Id>
+<Width>435.841980</Width>
+<Height>247.788849</Height>
+<Position>746.570129,401.242523,0.000000</Position>
+<Opacity>0.800000</Opacity>
+<Pivot>0.001709,1.390625,0.000000</Pivot>
+<SizeMode>16</SizeMode>
+<ImagePath>no_title.png</ImagePath>
+</Properties>
+</XuiImage>
+<XuiText>
+<Properties>
+<Id>XuiRomName</Id>
+<Width>439.284210</Width>
+<Height>21.000000</Height>
+<Position>744.091125,226.468964,0.000000</Position>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff0f0feb</DropShadowColor>
+<PointSize>12.000000</PointSize>
+<TextStyle>1045</TextStyle>
+</Properties>
+</XuiText>
+<XuiFigure>
+<Properties>
+<Width>653.000000</Width>
+<Height>2.026230</Height>
+<Position>57.456001,649.349792,0.000000</Position>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<FillColor>0xffebebeb</FillColor>
+<Gradient>
+<Properties>
+<NumStops>8</NumStops>
+<StopColor index="0">0xffebebeb</StopColor>
+<StopColor index="1">0xff47bf0f</StopColor>
+<StopColor index="2">0xffa3df0f</StopColor>
+<StopColor index="3">0xff0f0f2d</StopColor>
+<StopColor index="4">0xff270fa7</StopColor>
+<StopColor index="5">0xffc70fc7</StopColor>
+<StopColor index="6">0xff0f0f0f</StopColor>
+<StopColor index="7">0xff0f0f0f</StopColor>
+<StopPos index="0">0.000000</StopPos>
+<StopPos index="1">0.062745</StopPos>
+<StopPos index="2">0.168627</StopPos>
+<StopPos index="3">0.525490</StopPos>
+<StopPos index="4">0.788235</StopPos>
+<StopPos index="5">1.000000</StopPos>
+<StopPos index="6">1.000000</StopPos>
+<StopPos index="7">1.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,653.000000,0.000000,0,653.000000,0.000000,653.000000,0.000000,653.000000,5.000000,0,653.000000,5.000000,653.000000,5.000000,0.000000,5.000000,0,0.000000,5.000000,0.000000,5.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiFigure>
+<Properties>
+<Width>653.000000</Width>
+<Height>1.543991</Height>
+<Position>54.000000,228.000000,0.000000</Position>
+<Stroke>
+<Properties>
+<StrokeColor>0xff0f0f80</StrokeColor>
+</Properties>
+</Stroke>
+<Fill>
+<Properties>
+<FillColor>0xffebebeb</FillColor>
+<Gradient>
+<Properties>
+<NumStops>8</NumStops>
+<StopColor index="0">0xffebebeb</StopColor>
+<StopColor index="1">0xff47bf0f</StopColor>
+<StopColor index="2">0xffa3df0f</StopColor>
+<StopColor index="3">0xff0f0f2d</StopColor>
+<StopColor index="4">0xff270fa7</StopColor>
+<StopColor index="5">0xffc70fc7</StopColor>
+<StopColor index="6">0xff0f0f0f</StopColor>
+<StopColor index="7">0xff0f0f0f</StopColor>
+<StopPos index="0">0.000000</StopPos>
+<StopPos index="1">0.062745</StopPos>
+<StopPos index="2">0.168627</StopPos>
+<StopPos index="3">0.525490</StopPos>
+<StopPos index="4">0.788235</StopPos>
+<StopPos index="5">1.000000</StopPos>
+<StopPos index="6">1.000000</StopPos>
+<StopPos index="7">1.000000</StopPos>
+</Properties>
+</Gradient>
+<TransformVersion>1</TransformVersion>
+</Properties>
+</Fill>
+<Closed>true</Closed>
+<Points>4,0.000000,0.000000,0.000000,0.000000,653.000000,0.000000,0,653.000000,0.000000,653.000000,0.000000,653.000000,5.000000,0,653.000000,5.000000,653.000000,5.000000,0.000000,5.000000,0,0.000000,5.000000,0.000000,5.000000,0.000000,0.000000,0,</Points>
+</Properties>
+</XuiFigure>
+<XuiText>
+<Properties>
+<Id>XuiGameInfoLbl1</Id>
+<Width>133.404663</Width>
+<Height>33.076599</Height>
+<Position>773.234314,249.079987,0.000000</Position>
+<Text>Rom Name :</Text>
+<TextColor>0xffffffff</TextColor>
+<DropShadowColor>0xff0f0feb</DropShadowColor>
+<TextStyle>277</TextStyle>
+</Properties>
+</XuiText>
+<XuiButton>
+<Properties>
+<Id>XuiButtonOptions</Id>
+<Width>334.910156</Width>
+<Height>16.000000</Height>
+<Position>762.854004,341.460205,0.000000</Position>
+<Visual>Y_Button</Visual>
+<UnfocusedInput>true</UnfocusedInput>
+<Text>Options</Text>
+<PressKey>22531</PressKey>
+</Properties>
+</XuiButton>
+</XuiScene>
+</XuiCanvas>

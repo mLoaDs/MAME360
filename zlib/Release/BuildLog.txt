@@ -1,0 +1,55 @@
+﻿Build started 22.12.2018 11:23:14.
+     1>Project "D:\test2\mame_0.72_Release8 2018_src\zlib\zlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /D NDEBUG /D _XBOX /D _LIB /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"D:\test2\mame_0.72_Release8 2018_src\zlib\Release\zlib.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TC stdafx.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /D NDEBUG /D _XBOX /D _LIB /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release\\" /Fd"Release\vc100.pdb" /TC adler32.c compress.c crc32.c deflate.c gvmat32c.c gzio.c infblock.c infcodes.c inffast.c inflate.c inftrees.c infutil.c trees.c uncompr.c unzip.c zip.c zutil.c /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gvmat32c.c
+         gzio.c
+         infblock.c
+         infcodes.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         infutil.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\Lib.exe /OUT:"D:\test2\mame_0.72_Release8 2018_src\zlib\Release\zlib.lib" /NOLOGO Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\gvmat32c.obj
+         Release\gzio.obj
+         Release\infblock.obj
+         Release\infcodes.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\infutil.obj
+         Release\stdafx.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\unzip.obj
+         Release\zip.obj
+         Release\zutil.obj
+     1>gvmat32c.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         zlib.vcxproj -> D:\test2\mame_0.72_Release8 2018_src\zlib\Release\zlib.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\zlib.unsuccessfulbuild".
+         Touching "Release\zlib.lastbuildstate".
+     1>Done Building Project "D:\test2\mame_0.72_Release8 2018_src\zlib\zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03
