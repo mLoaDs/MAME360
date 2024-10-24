@@ -54,3 +54,10 @@ Controls can be configured easily via the MAME menu. The default settings are:
 - Back + Start to return to the menu.
 - Click with the right stick to enter Configuration Mode.
 - Click with the left stick for display options.
+
+![mame1](https://github.com/user-attachments/assets/5ef70c22-0cdc-4a8f-8f5a-0121ae4745a6)
+
+Credits and Thanks
+==================
+- Thanks to Artik and Logic Sunrise for their continued support.
+- Some of the code is based on MameOX. Credits to the team.
