@@ -1,4 +1,4 @@
-![1000059218](https://github.com/user-attachments/assets/7db8b933-10f1-48a5-a70e-c79f623327cb)
+![380443606-7db8b933-10f1-48a5-a70e-c79f623327cb](https://github.com/user-attachments/assets/ed4078aa-2272-46c7-8320-4e892dc565fc)
 
 # MAME360
  is a multi-arcade emulator port for XBox360
